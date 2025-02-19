@@ -1,0 +1,3 @@
+# PHP Unexpected Return Value in Loop with Early Exit
+
+This repository demonstrates a common PHP error related to unexpected return values from functions containing loops with early exit conditions.  The code in `bug.php` shows a function that calculates a sum, but an early `return` statement inside the loop alters the output in a way that might not be immediately obvious to developers.  The solution is provided in `bugSolution.php` which demonstrates how to correct the issue by carefully managing the conditional logic and ensuring the function functions as expected.
